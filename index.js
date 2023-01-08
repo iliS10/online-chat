@@ -1,13 +1,13 @@
   // Initialiser Firebase
 var config = {
-    apiKey: "AIzaSyDIidvjlPjkrptN05bq6T06Us6IKoWqqbM",
-    authDomain: "chat-oeoeoe.firebaseapp.com",
-    databaseURL: "https://chat-oeoeoe-default-rtdb.europe-west1.firebasedatabase.app/",
-    projectId: "chat-oeoeoe",
-    storageBucket: "chat-oeoeoe.appspot.com",
-    messagingSenderId: "788584561074",
-    appId: "1:788584561074:web:6dc3f7275a26b7b82a4cab",
-    measurementId: "G-JPFJXMPQS1"
+    apiKey: "YOURAPIKEY",
+    authDomain: "YOURAUTHDOMAIN",
+    databaseURL: "YOURDATABASEURL",
+    projectId: "YOURPROJECTID",
+    storageBucket: "YOURSTORAGEBUCKET",
+    messagingSenderId: "YOURMESSAGINGSENDERID",
+    appId: "YOURAPPID",
+    measurementId: "YOURMEASUREMENTID"
     
   };
   firebase.initializeApp(config);
