@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chat en ligne</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <form id="chat-form">
+    <label for="username">Nom d'utilisateur:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="message">Message:</label><br>
+    <input type="text" id="message" name="message"><br><br>
+    <input type="submit" value="Envoyer">
+  </form> 
+  <div id="chatbox">
+  </div>
+  <!-- script JavaScript -->
+  <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-database.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
